@@ -2,7 +2,7 @@
 /*
 	URL Shortener API
 
-	Author: Mark Roland <mark@abenity.com>
+	Author: Mark Roland
 
 	Log:
 		9/30/2011 - Created
