@@ -19,7 +19,7 @@ CREATE TABLE `short_url` (
 	`set_referrer` tinyint(3) unsigned NOT NULL DEFAULT '0',
 	PRIMARY KEY (`shortcut_id`),
 	UNIQUE KEY `shortcut` (`shortcut`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE `short_url_tracking` (
 	`shortcut_id` smallint(3) unsigned DEFAULT '0',
