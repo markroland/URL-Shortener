@@ -1,0 +1,11 @@
+# Turn on mod_rewrite
+RewriteEngine On
+
+# Route Request
+RewriteRule ^api.php(.*)$ api.php [L,nc]
+RewriteRule ^api/([a-zA-Z-_]*)\.?(json)?$ api.php?method=$1&format=$2 [L,nc]
+RewriteRule ^$ index.html [L,nc]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ redirect.php?shortcut=$1 [nc,qsa]
