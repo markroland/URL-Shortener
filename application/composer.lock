@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c82927cf3a2d087c9b3666ed98c1fed",
+    "content-hash": "c44dd8fb67f92bd650581e16ca5a01ee",
     "packages": [
         {
             "name": "markroland/url-shortener-lib",
-            "version": "v0.1.3",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:markroland/url-shortener-lib.git",
-                "reference": "c251615c6d0c423c23b1c7816c10380f21591309"
+                "reference": "96147b658b8c658b08d3b8d54ae23415611f3d69"
             },
             "require": {
                 "ext-pdo": "*",
@@ -44,7 +44,7 @@
                 "Composer",
                 "Packagist"
             ],
-            "time": "2017-01-26T07:24:12+00:00"
+            "time": "2017-01-26T21:58:30+00:00"
         }
     ],
     "packages-dev": [],
