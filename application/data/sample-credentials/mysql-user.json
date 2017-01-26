@@ -1,0 +1,7 @@
+{
+    "DB_HOST": "localhost",
+    "DB_NAME": "webapp_main",
+    "DB_CHARSET": "utf8",
+    "DB_USER": "webapp",
+    "DB_PASSWORD": "webapp"
+}

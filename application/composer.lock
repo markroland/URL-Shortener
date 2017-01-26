@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2c82927cf3a2d087c9b3666ed98c1fed",
+    "packages": [
+        {
+            "name": "markroland/url-shortener-lib",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:markroland/url-shortener-lib.git",
+                "reference": "c251615c6d0c423c23b1c7816c10380f21591309"
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phing/phing": "^2",
+                "phpunit/phpunit": "^5",
+                "squizlabs/php_codesniffer": "^2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "markroland\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Roland",
+                    "homepage": "http://markroland.com/"
+                }
+            ],
+            "description": "A URL shortening library for a PHP",
+            "homepage": "https://github.com/markroland/url-shortener-lib",
+            "keywords": [
+                "Composer",
+                "Packagist"
+            ],
+            "time": "2017-01-26T07:24:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": {
+        "php": ">=5.6.0"
+    }
+}

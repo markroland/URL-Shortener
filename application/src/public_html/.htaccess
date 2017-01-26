@@ -1,0 +1,7 @@
+# Turn on mod_rewrite
+RewriteEngine On
+
+# Process requests
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [nc,qsa]

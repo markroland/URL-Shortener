@@ -1,0 +1,4 @@
+Error Code,Description
+1,Invalid API authentication
+2,The method you requested does not exist
+3,Shortcut is unavailable

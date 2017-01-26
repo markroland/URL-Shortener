@@ -1,0 +1,7 @@
+{
+  "CPANEL_DOMAIN": "your domain",
+  "CPANEL_SKIN": "x3",
+  "CPANEL_USERNAME": "your username",
+  "CPANEL_PASSWORD": "your password",
+  "CPANEL_NOTIFY_EMAIL": "your email"
+}

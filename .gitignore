@@ -1,0 +1,8 @@
+# Operating system files
+.DS_Store
+
+# Vagrant system folder
+.vagrant
+
+# Private credentials (matches /application/data/credentials/sample-credentials)
+/application/data/credentials

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="URL Shortener" default="phplint" basedir="." description="URL Shortener">
+
+    <property name="message" value="Phing Running..."/>
+    <property name="basedir" value="${project.basedir}" />
+    <property name="php_bin_path" value="/usr/bin/" />
+
+    <!-- Default target - PHP Lint -->
+    <target name="phplint">
+        <echo msg="Performing phplint for syntax errors..." />
+        <phplint>
+            <fileset dir=".">
+                <exclude name="vendor/**/*.php"/>
+            </fileset>
+        </phplint>
+    </target>
+
+</project>

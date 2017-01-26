@@ -1,0 +1,6 @@
+{
+  "BACKUP_SERVER_HOST": "your username",
+  "BACKUP_SERVER_PATH": "your path",
+  "BACKUP_SERVER_USERNAME": "your username",
+  "BACKUP_SERVER_PASSWORD": "your password"
+}
