@@ -6,3 +6,6 @@
 
 # Private credentials (matches /application/data/credentials/sample-credentials)
 /application/data/credentials
+
+# Composer packages
+/application/vendor
