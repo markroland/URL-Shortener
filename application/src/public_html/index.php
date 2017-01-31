@@ -48,7 +48,7 @@ register_shutdown_function(
 // Load Composer autoloader
 include realpath(__DIR__ . '/../../vendor') . '/autoload.php';
 
-$credentials_path = realpath(__DIR__ . '/../../data/sample-credentials');
+$credentials_path = realpath(__DIR__ . '/../../data/credentials');
 
 // Connect to database
 $json_db_credentials = file_get_contents($credentials_path . '/mysql-user.json');
