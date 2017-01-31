@@ -14,6 +14,6 @@ node {
     stage('Build') {
 
         // Check for PHP syntax errors
-        sh 'phing phplint'
+        // sh 'phing phplint'
     }
 }
