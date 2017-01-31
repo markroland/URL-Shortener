@@ -8,11 +8,11 @@
     "packages": [
         {
             "name": "markroland/url-shortener-lib",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:markroland/url-shortener-lib.git",
-                "reference": "96147b658b8c658b08d3b8d54ae23415611f3d69"
+                "reference": "b101340a46f3e5ed2d50fedc3c8d1d4dd102ed81"
             },
             "require": {
                 "ext-pdo": "*",
@@ -44,7 +44,7 @@
                 "Composer",
                 "Packagist"
             ],
-            "time": "2017-01-26T21:58:30+00:00"
+            "time": "2017-01-31T00:14:52+00:00"
         }
     ],
     "packages-dev": [],
