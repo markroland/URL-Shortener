@@ -19,3 +19,6 @@ cd ~/application
 echo 'Deploy: Checking out code from source repository'
 git fetch origin $branch --tags
 git checkout --force FETCH_HEAD
+
+# Install dependencies
+php ~/composer.phar install --no-dev --ignore-platform-reqs
