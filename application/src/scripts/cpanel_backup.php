@@ -24,7 +24,7 @@ $skin   = $cpanel_credentials->CPANEL_SKIN;
 define('BACKUP_HOST', $remote_server->BACKUP_SERVER_HOST);
 define('BACKUP_DIR', $remote_server->BACKUP_SERVER_PATH);
 define('BACKUP_USERNAME', $remote_server->BACKUP_SERVER_USERNAME);
-define('BACKUP_PASSWORD', $remote_server->BACKUP_SERVER_ASSWORD);
+define('BACKUP_PASSWORD', $remote_server->BACKUP_SERVER_PASSWORD);
 
 // Select transfer mode: "ftp" for active, "passiveftp" for passive, "scp" for secure ftp
 $ftpmode = 'scp';
