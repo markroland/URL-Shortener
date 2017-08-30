@@ -50,6 +50,10 @@ include realpath(__DIR__ . '/../../vendor') . '/autoload.php';
 
 $credentials_path = realpath(__DIR__ . '/../../data/credentials');
 
+if (file_exists($credentials_path . '/' . $_SERVER['HTTP_HOST'])) {
+    $credentials_path = $credentials_path . '/' . $_SERVER['HTTP_HOST'];
+}
+
 // Connect to database
 $json_db_credentials = file_get_contents($credentials_path . '/mysql-user.json');
 $db_credentials = json_decode($json_db_credentials);

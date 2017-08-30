@@ -37,6 +37,14 @@ After upgrading the base box, then run the installation script:
     sh /vagrant/application/src/scripts/install.sh
 ```
 
+## Configuration
+
+Copy application/data/sample-credentials to application/data/credentials and enter your specific values.
+
+In order to run multiple domains from a single copy of this codebase credential folders can be created,
+e.g. "application/data/credentials/acme.com"
+
+
 ## Usage
 
 ### Redirects
